@@ -1,0 +1,23 @@
+#root {
+    height: 561px;
+    width: 1920px;
+}
+
+nav {
+    position: fixed;
+    inset-block: 0;
+    right: 30px;
+    align-items: center;
+}
+
+#home_content {
+    position: fixed;
+    right: 300px;
+}
+
+img {
+    position: fixed;
+    height: 373.28px;
+    width:  373.28px;
+    left: 300px;
+}
