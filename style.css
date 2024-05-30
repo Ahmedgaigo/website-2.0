@@ -22,10 +22,37 @@ img {
     left: 300px;
 }
 
-#color_switch {
-    border: solid;
+.switch {
+    border-radius: 10px;
     height: 50px;
     width: 50px;
     background-color: #f0f0f0;
+    margin-left: 0px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;  
 }
 
+.nav_list {
+    margin-top: 35px;
+}
+
+/* light mode */
+:root {
+    --background-color: white;
+    --text-color: black;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    --background-color: black;
+    --text-color: white;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+}
