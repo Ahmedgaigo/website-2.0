@@ -21,3 +21,11 @@ img {
     width:  373.28px;
     left: 300px;
 }
+
+#color_switch {
+    border: solid;
+    height: 50px;
+    width: 50px;
+    background-color: #f0f0f0;
+}
+
