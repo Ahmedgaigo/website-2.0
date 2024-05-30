@@ -35,14 +35,29 @@ img {
     height: 7vh;  
 }
 
-.nav_list {
-    margin-top: 35px;
+.nav_item {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+}
+
+body.dark-mode .nav_item {
+    background-color: #333; /* Dark mode background color */
+}
+
+body.dark-mode .fa-solid {
+    color: white;
 }
 
 /* light mode */
 :root {
     --background-color: white;
-    --text-color: black;
+    --text-color: #333;
 }
 
 /* Dark mode styles */
@@ -55,4 +70,8 @@ body {
     background-color: var(--background-color);
     color: var(--text-color);
     transition: background-color 0.3s, color 0.3s;
+}
+
+.no-bullets {
+    list-style-type: none; 
 }
