@@ -8,25 +8,44 @@
     <script src="https://kit.fontawesome.com/7b5d78c710.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div id="root">
-        <nav>
-            <ul class="nav_list">
-                <div class="nav-menu">
-                    <div class="nav_item"><li class="no-bullets"><a href="#home"><i class="fa-solid fa-house fa-xl" style="color: #333;"></i></a></li></div>
-                    <div class="nav_item"><li class="no-bullets"><a href="./about.html"><i class="fa-solid fa-user-astronaut fa-xl" style="color: #333;"></i></a></li></div>
-                    <div class="nav_item"><li class="no-bullets"><a href="#portfolio"><i class="fa-solid fa-briefcase fa-xl" style="color: #333;"></i></a></li></div>
-                    <div class="nav_item"><li class="no-bullets"><a href="#contact"><i class="fa-solid fa-id-card-clip fa-xl" style="color: #333;"></i></a></li></div>
-                    <div class="nav_item"><li class="no-bullets"><a href="#blog"><i class="fa-solid fa-blog fa-xl" style="color: #333;"></i></a></li></div>
-                </div>
-            </ul>
-        </nav>
+    <div class="root">
+        <!--------------------------dark mode and color switch------------------------->
+        <div class="style-switch">
+            <div id="color_switch" class="switch">
+                <a href="">
+                    <i class="fa-sharp fa-solid fa-palette fa-2xl" style="color: skyblue;"></i>
+                </a>
+            </div>
+            <div id="theme" class="switch">
+                <a href="">
+                    <i class="fa-sharp fa-solid fa-moon fa-2xl" style="color: navy;"></i>
+                </a>
+            </div>
+        </div>
 
-        <img src="./assets/images/img1.jpg" alt="my picture">
+        <!---------------------------nav-------------------------------------------------->
+        <div>
+            <nav>
+                <ul class="nav-list">
+                    <div class="nav-menu">
+                        <div class="nav-item"><li class="no-bullets"><a href="./index.html"><i class="fa-solid fa-house fa-xl" style="color: #333;"></i></a></li></div>
+                        <div class="nav-item"><li class="no-bullets"><a href="./about.html"><i class="fa-solid fa-user-astronaut fa-xl" style="color: #333;"></i></a></li></div>
+                        <div class="nav-item"><li class="no-bullets"><a href="#portfolio"><i class="fa-solid fa-briefcase fa-xl" style="color: #333;"></i></a></li></div>
+                        <div class="nav-item"><li class="no-bullets"><a href="#contact"><i class="fa-solid fa-id-card-clip fa-xl" style="color: #333;"></i></a></li></div>
+                        <div class="nav-item"><li class="no-bullets"><a href="#blog"><i class="fa-solid fa-blog fa-xl" style="color: #333;"></i></a></li></div>
+                    </div>
+                </ul>
+            </nav>
+        </div>
 
+        <!---------------------------------image----------------------------------------------------------->
+        <div><img src="./assets/images/img1.jpg" alt="my picture"></div>
+
+        <!---------------------------------home content------------------------------------------------------>
         <div id="home-content">
             <div id="title">
                 <h1 id="text">
-                    <span id="s1">#BELIEVE</span> YOU CAN<br> AND YOU'RE <span id="s2">HALFWAY</span> THERE
+                    <span>#BELIEVE</span> YOU CAN<br> AND YOU'RE <span>HALFWAY</span> THERE
                 </h1>
                 <p id="description">
                     Hello and welcome!<br><br>
@@ -38,19 +57,6 @@
                     
                     <br><br>Let’s reach new heights together!---
                 </p>
-            </div>
-        </div>
-
-        <div class="style_switch">
-            <div id="color_switch" class="switch">
-                <a href="">
-                    <i class="fa-sharp fa-solid fa-palette fa-2xl" style="color: royalblue;"></i>
-                </a>
-            </div>
-            <div id="theme" class="switch">
-                <a href="">
-                    <i class="fa-sharp fa-solid fa-moon fa-2xl" style="color: black;"></i>
-                </a>
             </div>
         </div>
     </div>
