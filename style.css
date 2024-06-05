@@ -3,6 +3,7 @@
     width: 1920px; */
     display: flex;
     gap: 10px;
+    background-color: #144272;
 }
 
 nav {
