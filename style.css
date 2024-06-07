@@ -1,31 +1,12 @@
-.root {
-    /* height: 561px;
-    width: 1920px; */
-    display: flex;
-    gap: 10px;
-    background-color: #144272;
-}
-
-nav {
-    position: fixed;
-    inset-block: 0;
-    right: 30px;
-    align-items: center;
-}
-
-#home-content {
-    position: fixed;
-    display: inline-flex;
-    gap: 10px;
-    justify-content: center;
-}
-
-img {
-    position: fixed;
-    height: 373.28px;
-    width:  373.28px;
-    left: 300px;
-    margin-top: 13%;
+.root-grid {
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+    grid-template-rows: 1fr;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./assets/images/round.jpg);
+    background-size: cover; /* Make the image cover the entire background */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
 }
 
 .switch {
@@ -38,11 +19,94 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 7vh;  
 }
 
-.style-switch {
+.switch.color-flex {
     margin-top: 80px;
+}
+
+.switch.theme-flex {
+    margin-top: 10px;
+}
+
+.main-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.pic-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0%;
+}
+
+img {
+    height: 340px;
+    width: 340px;
+    border-radius: 40%;
+    float: right;
+}
+
+.socials-flex {
+    display: flex;
+    height: 70px;
+}
+
+.social-items {
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+}
+
+.empty {
+    height: 10px;
+}
+
+.resume-flex {
+    display: flex;
+    height: 70px;
+    gap: 30px;
+}
+
+.item {
+    display: inline-flex;
+    height: 45px;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-flex {
+    float: left;
+}
+
+.res-flex {
+    margin-right: 0px;
+    float: right;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 45px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    float: right;
+}
+
+nav {
+    position: fixed;
+    inset-block: 0;
+    right: 10px;
+    align-items: center;
 }
 
 .nav-item {
@@ -50,15 +114,19 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
     background-color: #f0f0f0;
     border-radius: 50%;
 }
 
 .nav-list {
-    margin-top: 280px;
+    margin-top: 440px;
 }
+
+
+
+/*-----------------------------------------------------------------------------*/
 
 body.dark-mode .nav_item {
     background-color: #333; /* Dark mode background color */
@@ -86,13 +154,3 @@ body {
     list-style-type: none; 
 }
 
-#home-content {
-    margin-top: 6%;
-}
-
-#title {
-    text-align: center;
-    font-size: larger;
-    font-weight: 800;
-    margin-bottom: 70px;
-}
