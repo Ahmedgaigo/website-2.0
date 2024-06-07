@@ -55,14 +55,12 @@ img {
 }
 
 .social-items {
-    margin-left: 20px;
+    margin-left: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 40px;
     width: 40px;
-    background-color: #f0f0f0;
-    border-radius: 50%;
 }
 
 .empty {
@@ -72,7 +70,7 @@ img {
 .resume-flex {
     display: flex;
     height: 70px;
-    gap: 30px;
+    gap: 150px;
 }
 
 .item {
@@ -87,7 +85,6 @@ img {
 }
 
 .res-flex {
-    margin-right: 0px;
     float: right;
 }
 
